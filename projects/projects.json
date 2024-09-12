@@ -40,303 +40,285 @@
     }
   },
   {
-    "name": "Instagram MERN",
-    "desc": "Full-Stack Instagram clone built using MERN stack and realtime chat with the help of socket.iO",
-    "image": "instagrammern",
-    "category": "mern",
+    "name": "Road Traffic AI-based Solution",
+    "desc": "Urban Traffic Anomalies Detection using Deep-Learning and IoT <h4><ul> <li>Proposed Budget: Rs 29.63 Lakhs</li> <li>Funding Agency: SERB (SURE Scheme)</li> <li>Application Status: Submitted</li> </ul></h4>",
+    "image": "Traffic-AI-control",
+    "category": "research-project",
     "links": {
-      "view": "https://instagramernstack.herokuapp.com/",
-      "code": "https://github.com/jigar-sable/instagram-mern"
+      "view": "#"
     }
   },
   {
-    "name": "Flipkart MERN",
-    "desc": "Full-Stack Flipkart with Admin Dashboard and Paytm Payment Gateway. MERN Stack WebApp, ready to use for business.",
-    "image": "flipkartmern",
-    "category": "mern",
+    "name": "Chronic Diseases Prediction",
+    "desc": "Federated Approaches to Chronic Disease Prediction and Drug Recommendation in Healthcare <h4><ul> <li>Proposed Budget: Rs 23.14 Lakhs</li> <li>Funding Agency: Ministry of Electronics and Information Technology </li> <li>Application Status: Submitted</li> </ul></h4>",
+    "image": "project2-healthcare",
+    "category": "research-project",
     "links": {
-      "view": "https://flipkartwebs.herokuapp.com/",
-      "code": "https://github.com/jigar-sable/flipkart-mern"
+      "view": "#"
     }
   },
   {
-    "name": "ResumeGen",
-    "desc": "ReactJS Basic Resume Generator which will generate customized resume in few minutes on your requirements.",
-    "image": "resumegen",
-    "category": "mern",
+    "name": "BCUI analysis system",
+    "desc": "This research describes an intelligent BC (breast cancer) image analysis system that leverages the capabilities of transfer learning (TLs) with ensemble stacking ML models. <br><b>Name of the Journal:</b> <i>IEEE Access (2024)</i>",
+    "image": "paper1-journal",
+    "category": "research-journal",
     "links": {
-      "view": "https://resumegenx.netlify.app/",
-      "code": "https://github.com/jigar-sable/resumegen"
+      "view": "https://ieeexplore.ieee.org/document/10414098"
     }
   },
   {
-    "name": "React-Projects",
-    "desc": "Full-Stack project dashboard which is collection of projects built on the React library.",
-    "image": "reactprojects",
-    "category": "mern",
+    "name": "Moving-Object Detection",
+    "desc": "<small>Through the use of cutting-edge techniques, the current study seeks to improve the performance accuracy of object detection techniques based on Gaussian Mixture Models (GMM). It is achieved by developing crucial phases in the object detecting process.</small><br><b>Name of the Journal:</b> <i>Elsevier Measurement: Sensors (2023)</i>",
+    "image": "paper2-journal",
+    "category": "research-journal",
     "links": {
-      "view": "https://reactjsprojects.herokuapp.com/",
-      "code": "https://github.com/jigar-sable/React-Projects"
+      "view": "https://doi.org/10.1016/j.measen.2023.100898"
     }
   },
   {
-    "name": "Flipkart PHP",
-    "desc": "Full-Stack Flipkart Clone Using LAMP Stack. With all major features and OTP authentication and Cashfree payment gateway.",
-    "image": "flipkartphp",
-    "category": "lamp",
+    "name": "Aspect-based sentiment analysis on multi-domain reviews through word embedding",
+    "desc": "In this work, the proposed system develops a framework that effectively gathers product reviews from various e-commerce websites. Identifies product attributes and related adjectives. Checks and corrects structural text discrepancies<br><b>Name of the Journal:</b> <i>De Gruyter Journal of Intelligent-Systems (2023)</i>",
+    "image": "paper3-journal",
+    "category": "research-journal",
     "links": {
-      "view": "https://github.com/jigar-sable/Flipkart-Clone-PHP",
-      "code": "https://github.com/jigar-sable/Flipkart-Clone-PHP"
+      "view": "https://doi.org/10.1515/jisys-2023-0001"
     }
   },
   {
-    "name": "JavaScript Projects Website",
-    "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
-    "image": "jspro",
-    "category": "basicweb",
+    "name": "Control Traffic Congestion using IP",
+    "desc": "A New Method to Control Traffic Congestion by Calculating Traffic Density using image processing methods <br><b>Name of the Journal:</b> <i>International Journal of Intelligent Systems and Applications in Engineering (2022) </i>",
+    "image": "paper4-journal",
+    "category": "research-journal",
     "links": {
-      "view": "https://jigar-sable.github.io/JavaScript-Projects",
-      "code": "https://github.com/jigar-sable/JavaScript-Projects"
+      "view": "https://ijisae.org/index.php/IJISAE/article/view/2231/884"
     }
   },
   {
-    "name": "Web UI Clones",
-    "desc": "Flipkart, YouTube, Instagram, Sololearn web UI clones using tailwindCSS.",
-    "image": "webuiclones",
-    "category": "mern",
+    "name": "A Framework for Intelligent Traffic Control System",
+    "desc": "This paper illustrates a novel technique named Edge Detection and Moving Object Detection (EDMOD) algorithm, which uses ED and MOD approaches to find the real-time area-wide density of the traffic at the traffic light junction by dividing the Region of Interest (ROI) into two regions. <br><b>Name of the Journal:</b> <i>International Journal of Engineering Trends and Technology (2022) </i>",
+    "image": "paper5-journal",
+    "category": "research-journal",
     "links": {
-      "view": "https://github.com/jigar-sable/web-ui-clones",
-      "code": "https://github.com/jigar-sable/web-ui-clones"
+      "view": "https://doi.org/10.14445/22315381/IJETT-V70I7P210"
     }
   },
   {
-    "name": "Crypto Tracker",
-    "desc": "Crypto Tracker built using ReactJS and Chakra UI. Supports dark mode. API used coingecko.",
-    "image": "cryptotracker",
-    "category": "mern",
+    "name": "Smart Wearable Device for Women Safety Using IoT",
+    "desc": "In this paper, a smart device for women's safety which automates the emergency alert system by using pressure sensor,pulse-rate sensor and temperature sensor to detect a possible atrocity automatically using outlier detection is proposed. <br><b>Name of the Journal:</b> <i>IEEE Xplore (2020)</i>",
+    "image": "paper6-journal",
+    "category": "research-journal",
     "links": {
-      "view": "https://crypto-tracker-react-project.netlify.app/",
-      "code": "https://github.com/jigar-sable/React-Projects/tree/main/crypto-tracker"
+      "view": "https://ieeexplore.ieee.org/document/9138047"
     }
   },
   {
-    "name": "Hulu Website",
-    "desc": "Hulu website built using NextJS and tailwindCSS. API used TMDB, deployed on vercel.",
-    "image": "hulu",
-    "category": "mern",
+    "name": "Vehicle Detection and Classification System by GMM",
+    "desc": "This paper provides an overview on vehicle detection and classification system by gaussian mixture models. <br><b>Name of the Journal:</b> <i>International Journal of Scientific Research in Science and Technology (2020)</i>",
+    "image": "paper7-journal",
+    "category": "research-journal",
     "links": {
-      "view": "https://hulu-clone-jigar-sable.vercel.app/",
-      "code": "https://github.com/jigar-sable/React-Projects/tree/main/hulu-clone"
+      "view": "https://ijsrst.com/IJSRST2183214"
     }
   },
   {
-    "name": "Portfolio Website",
-    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
-    "image": "portfolio1",
-    "category": "basicweb",
+    "name": "Fake face image detection using feature network",
+    "desc": "In this paper, a deep learning framework is proposed that differentiates fabricated parts of the image from the real image using supervised learning strategies. Also a modified neural network structure called the Fake Feature Network is proposed in this work which consists of advanced convolution networks. <br><b>Name of the Journal:</b> <i>International Journal of Health Sciences, ISSN:2550-6978 (2022)</i>",
+    "image": "paper8-journal",
+    "category": "research-journal",
     "links": {
-      "view": "#",
-      "code": "https://github.com/jigar-sable/Portfolio-Website"
+      "view": "https://doi.org/10.53730/ijhs.v6nS5.9310"
     }
   },
   {
-    "name": "Composey Website",
-    "desc": "Simple landing page website built using HTML, CSS, JavaScript and some JavaScript Libraries.",
-    "image": "composey",
-    "category": "basicweb",
+    "name": "Enabling effective location-based services for road networks using spatial mining",
+    "desc": "We found that traditional distance measures don't work well for finding frequent co-location instances in geographic data. We studied how network distance affects co-location patterns in spatial data. We modified the existing CPMS model and added a new interesting measure to it. <br><b>Name of the Journal:</b> <i>International Journal of Health Sciences, ISSN:2550-6978 (2022)</i>",
+    "image": "paper9-journal",
+    "category": "research-journal",
     "links": {
-      "view": "https://composey.netlify.app/",
-      "code": "https://github.com/jigar-sable/LGMVIP-WebDev"
+      "view": "https://doi.org/10.53730/ijhs.v6nS4.9313"
     }
   },
   {
-    "name": "Webview App",
-    "desc": "It's an android app which uses web view component for displaying content. This app provides many different features.",
-    "image": "webviewapp",
-    "category": "android",
+    "name": "Speed Checker and Reporting System",
+    "desc": "In this project, we find the lorries and also track them in web traffic videos and approximate their speed. We follow the 'identity  after  that  track'  approach  Artificial  intelligence  and  also Computer  system  vision  strategies  are  utilized for object tracking. <br><b>Name of the Journal:</b> <i>International Journal of Health Sciences, ISSN:2550-6978 (2022)</i>",
+    "image": "paper10-journal",
+    "category": "research-journal",
     "links": {
-      "view": "https://github.com/jigar-sable/Android-Webview#webapp--android-webview-app",
-      "code": "https://github.com/jigar-sable/Android-Webview"
+      "view": "https://doi.org/10.53730/ijhs.v6nS4.9315"
     }
   },
   {
-    "name": "PHP Banking Website",
-    "desc": "Basic Banking System based on PHP and MySQL database. Made with HTML, CSS, JavaScript and backend with PHP.",
-    "image": "tsfbank",
-    "category": "lamp",
+    "name": "Brain Tumor Detection with Deep Learning on MRI Image Dataset",
+    "desc": "In this paper we have presented the two models, Inception V3 and VGG-Net. The main aim of this paper is to find the best technique (using deep convolutional neural networks) to detect the brain tumor from the MRI scanned images. The proposed models have given good results with good accuracy. <br><b>Name of the Journal:</b> <i>International Journal for Research in Applied Science & Engineering Technology (IJRASET) ISSN: 2321-9653; (2021)</i>",
+    "image": "paper11-journal",
+    "category": "research-journal",
     "links": {
-      "view": "https://tsfbank.rf.gd",
-      "code": "https://github.com/jigar-sable/TSF-Bank"
+      "view": "http://dx.doi.org/10.22214/ijraset.2021.35482"
     }
   },
   {
-    "name": "Bootstrap Portfolio",
-    "desc": "Portfolio built using HTML, CSS, Bootstrap, SASS and JavaScript. Customized Bootstrap using SCSS.",
-    "image": "bootstrapportfolio",
-    "category": "basicweb",
+    "name": "Hashtag Generation with Transfer Learning",
+    "desc": "This paper focuses on providing trending hashtags for businesses to increase their reach in the market and also help users find their desired product. It starts with data collection and preprocessing. Then, it uses several pre-trained models for transfer learning. The results from these models are compared to find the best one for identifying trending hashtags. <br><b>Name of the Journal:</b> <i>(IJRASET) ISSN: 2321-9653; (2021)</i>",
+    "image": "paper12-journal",
+    "category": "research-journal",
     "links": {
       "view": "#",
       "code": "#"
     }
   },
   {
-    "name": "Bootstrap Template",
-    "desc": "Basic website template built using HTML and Bootstrap.",
-    "image": "bootstraptemplate",
-    "category": "basicweb",
+    "name": "Smart Irrigation And Leaf Disease Detection Using IoT And CNN",
+    "desc": "The project was proposed with the idea of diagnosing plant diseases using machine learning. The Raspberry Camera Module is used to capture infected leaves and image processing to detect the disease. Open CV and Tensor Flow used for the purpose of disease identification. <br><b>Name of the Journal:</b> <i>International Journal of Computer Science and Engineering (IJCSE) (2020)</i>",
+    "image": "paper13-journal",
+    "category": "research-journal",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://oaji.net/articles/2021/1870-1641634032.pdf"
     }
   },
   {
-    "name": "Foodicious",
-    "desc": "Basic food website landing page built using HTML, CSS and JavaScript.",
-    "image": "foodicious",
-    "category": "basicweb",
+    "name": "Automatic Traffic Density Estimation And Vehicle Classification Method Using Neural Network",
+    "desc": "In this particular paper, the prophecy of blockage is actually operationalized by utilizing the formula of back proliferation to teach the semantic network. As well as additionally within this paper, automatic web traffic density evaluation and vehicle distinction approach making use of neural network appears. <br><b>Name of the Journal:</b> <i>International Journal of Scientific & Technology Research (IJSTR) (2020)</i>",
+    "image": "paper14-journal",
+    "category": "research-journal",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://ijstr.org/final-print/dec2019/Automatic-Traffic-Density-Estimation-And-Vehicle-Classification-Method-Using-Neural-Network.pdf"
     }
   },
   {
-    "name": "Food Website",
-    "desc": "Basic food website landing page built using HTML, CSS, SASS, Bootstrap and jQuery.",
-    "image": "foodwebsite",
-    "category": "basicweb",
+    "name": "Facial Emotion Detection using Convolutional Neural Networks",
+    "desc": " In this paper, we are proposing an algorithm which trains the FER 2013 dataset and builds a model. This model is used to predict human emotions using deep CNN (Convolution Neural Networks). <br><b>Name of the Journal:</b> <i>International Journal of Computer Science and Engineering (IJCSE) (2019)</i>",
+    "image": "paper15-journal",
+    "category": "research-journal",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://www.iaset.us/download/archives/06-05-2019-1557142715-6-%20IJCSE-2.%20format-IJCSE-FACIAL%20EMOTION%20DETECTION%20USING%20CONVOLUTIONAL%20NEURAL%20NETWORKS.pdf"
     }
   },
   {
-    "name": "WebChat Website",
-    "desc": "It's a web based chat app made using popular javaScript library Socket IO. Allows multiple users to connect.",
-    "image": "webchat",
-    "category": "mern",
+    "name": "Internet of Things and Big Data Analytics for developing Smart Cities: A Review",
+    "desc": "In this paper we present the review of few latest IEEE research articles which may help in developing future smart solutions. <br><b>Name of the Journal:</b> <i>International Journal of Computer Science and Engineering (IJCSE) (2019)</i> ",
+    "image": "paper16-journal",
+    "category": "research-journal",
     "links": {
-      "view": "https://github.com/jigar-sable/WebChat#webchat",
-      "code": "https://github.com/jigar-sable/WebChat"
+      "view": "https://iaeme.com/MasterAdmin/Journal_uploads/IJCET/VOLUME_9_ISSUE_3/IJCET_09_03_005.pdf"
+    }
+  },
+
+  {
+    "name": "Remote Sensing Image Captioning Using Deep Learning",
+    "desc": "In the realm of remote sensing image captioning, the prevailing approach predominantly employs encoder-decoder frameworks. In this framework, the image input is encoded by a convolutional neural network (CNN), and a recurrent neural network (RNN) deciphers this encoded information into coherent sentence descriptions. <br><b>Name of the Publisher:</b> <i>IEEE (2024)</i> ",
+    "image": "book1",
+    "category": "books",
+    "links": {
+      "view": "https://doi.org/10.1109/AUTOCOM60220.2024.10486178"
+    }
+  },
+  
+  {
+    "name": "Handwritten text recognition using deep learning techniques",
+    "desc": "This paper has successfully addressed the intricate challenge of converting handwritten text to digital format with a high value of accuracy and efficiency. Leveraging cutting-edge OCR technology, digital image processing techniques, and machine and deep learning algorithms, we have created a robust solution that preserves context and enhances accessibility. <br><b>Name of the Publisher:</b> <i>MATEC Web Conf. (2024)</i>",
+    "image": "book2",
+    "category": "books",
+    "links": {
+      "view": "https://doi.org/10.1051/matecconf/202439201126"
     }
   },
   {
-    "name": "Basic Banking App",
-    "desc": "It's an android app which uses SQLite to store user accounts data. It provides feature to simply transact amount.",
-    "image": "basicbank",
-    "category": "android",
+    "name": "Optimizing Chronic Kidney Disease Diagnosis in Uddanam",
+    "desc": "In our research, we gathered data about personal and clinical of 1,055 individuals living in the Uddanam area (Srikakulam district of Andhra Pradesh, India). Among these, 656 had CKD, and 399 did not. We looked at 37 different aspects of their health. We apply for feature reduction Principal component Analysis and for classification uses MLP and Intelligent GA-MLP Hybrid model. <br><b>Name of the Publisher:</b> <i>Procedia Computer Science (2023)</i>",
+    "image": "book3",
+    "category": "books",
     "links": {
-      "view": "https://github.com/jigar-sable/Basic_Banking_App#basic-banking-app",
-      "code": "https://github.com/jigar-sable/Basic_Banking_App"
+      "view": "https://doi.org/10.1016/j.procs.2023.12.108"
     }
   },
   {
-    "name": "JavaScript Issue Tracker",
-    "desc": "It provides the feature to Assign Issue With The Auto Generated Id By Using ChanceJS. Uses Local Storage.",
-    "image": "issuetrack",
-    "category": "basicweb",
+    "name": "Edge Detection and Moving Object Detection Algorithm to Control Traffic Lights Dynamically",
+    "desc": "This study demonstrates a novel strategy known as the Edge Detection and Moving Object Detection (EDAMOD) approach, which partitions the Region of Interest (ROI) into ROI-1 and ROI-2 and then employs ED, MOD paradigms to identify the live area wide vehicle capacity at the traffic signal junction. In ROI-1, it employs ED, and in ROI-2, MOD. <br><b>Name of the Publisher:</b> <i>Springer (2023)</i>",
+    "image": "book4",
+    "category": "books",
     "links": {
-      "view": "https://jigar-sable.github.io/JavaScript-Projects/projects/issuetracker",
-      "code": "https://github.com/jigar-sable/JavaScript-Projects/tree/main/projects/issuetracker"
+      "view": "https://doi.org/10.1007/978-981-99-2742-5_47"
     }
   },
   {
-    "name": "PHP PBL Portal",
-    "desc": "A simple portal in which students can submit their PBL projects and faculties can view by access admin panel.",
-    "image": "phppblform",
-    "category": "lamp",
+    "name": "A Review on Sign Language Recognition Techniques",
+    "desc": "Based on our research, there are two kinds of solutions proposed: a glove-based approach and a computer vision based. The rest of this review paper goes in depth about the various solutions proposed. Their methodology, advantages, and disadvantages are analyzed, compared, and discussed. <br><b>Name of the Publisher:</b> <i>Springer (2023)</i>",
+    "image": "book5",
+    "category": "books",
     "links": {
-      "view": "https://github.com/jigar-sable/PHP-Projects/tree/main/pblform#pbl-portal",
-      "code": "https://github.com/jigar-sable/PHP-Projects/tree/main/pblform"
+      "view": "https://doi.org/10.1007/978-981-99-2742-5_32"
     }
   },
   {
-    "name": "Link List",
-    "desc": "All major profile links in a single website. It's just like clone of link tree. Personalized and Responsive.",
-    "image": "linklist",
-    "category": "basicweb",
+    "name": "Review on 3D Model Generation Through Natural Language and Image Processing ",
+    "desc": "Our efforts were into detecting the edges of objects in input images and automating the task of building a model using data obtained from the processed image.  <br><b>Name of the Publisher:</b> <i>Springer (2023)</i>",
+    "image": "book6",
+    "category": "books",
     "links": {
-      "view": "https://jigar-sable.github.io/LinkList",
-      "code": "https://github.com/jigar-sable/LinkList"
+      "view": "https://doi.org/10.1007/978-981-99-2742-5_33"
     }
   },
   {
-    "name": "Job Finder Dummy",
-    "desc": "It Fetch JSON Data And Allow Feature To Search Within The Content Displayed. Will be Developed By Using Live APIs.",
-    "image": "saas",
-    "category": "basicweb",
+    "name": "Student Monitoring System Using Deep Learning",
+    "desc": "our aim is to develop an automated system that will mark the attendance and monitor the attentiveness of students. The system records the whole session and identifies whether the student is concentrating in the classroom or not, then reports to the faculties. To check what amount of time students attended the lecture with full attention or without any misbehavior, eye aspect ratio is used. <br><b>Name of the Publisher:</b> <i>Springer (2023)</i>",
+    "image": "book7",
+    "category": "books",
     "links": {
-      "view": "https://jigar-sable.github.io/JavaScript-Projects/api-projects/saas-jobs",
-      "code": "https://github.com/jigar-sable/JavaScript-Projects/tree/main/api-projects/saas-jobs"
+      "view": "https://doi.org/10.1007/978-981-99-2742-5_48"
     }
   },
   {
-    "name": "Old Websites",
-    "desc": "Bestwebs & ColorCoder. Two Years old websites memories. Simple with basic features.",
-    "image": "oldsites",
-    "category": "basicweb",
+    "name": "Survey on Estimation of Body Mass Index Using Facial Images",
+    "desc": "According to our research, region-aware global average pooling together with deep features were recommended, and training of dataset based on gender and race was recommended which improves accuracy and gives the best results for estimation of BMI from facial images. <br><b>Name of the Publisher:</b> <i>Springer (2023)</i>",
+    "image": "book8",
+    "category": "books",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://doi.org/10.1007/978-981-99-2742-5_37"
     }
   },
   {
-    "name": "Resistor Color Codes",
-    "desc": "Simply provides the color codes of resistors. Calculation information and about resistors.",
-    "image": "resistercolor",
-    "category": "basicweb",
+    "name": "Calculating the Traffic Density of Real-Time Video Using Moving Object Detection",
+    "desc": "In this paper, proposing a paradigm to find the live traffic density using MOD algorithm which interns uses prominent background subtraction practice by giving a traffic video as input to the proposed model so that this can work efficiently with live traffic video. <br><b>Name of the Publisher:</b> <i>Springer (2023)</i>",
+    "image": "book10",
+    "category": "books",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://doi.org/10.1007/978-981-19-8086-2_90"
     }
   },
   {
-    "name": "KIA Info Website",
-    "desc": "Basic KIA webpage displays the info about seltos product range. Specs and Image Gallery.",
-    "image": "kiaweb",
-    "category": "basicweb",
+    "name": "Automatic music genre classification using deep learning",
+    "desc": "In this paper, presented a large music dataset namely GTZAN with 10 distinct music genres like jazz, rock, hip-hop etc. In order train the classification model of music genre system, a deep learning based technique called CNN (Convolution Neural network) is applied. <br><b>Name of the Publisher:</b> <i>AIP (2023)</i>",
+    "image": "book11",
+    "category": "books",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://doi.org/10.1063/5.0161104"
     }
   },
   {
-    "name": "Burger Shop Dummy",
-    "desc": "Basic burger shop webpage allow users to check menu and price. Dummy Order Form.",
-    "image": "burgerweb",
-    "category": "basicweb",
+    "name": "Melanoma classification using convolutional neural network",
+    "desc": "The project is to build a Convolutional Neural Network (CNN) model which uses a data set of images from Kaggle provided by Society for Imaging Informatics in Medicine (SIIM), which is used along with image processing techniques to identify melanoma among the dataset and classify images in a way to predict whether a given medical image is affected by melanoma or not. <br><b>Name of the Publisher:</b> <i>AIP (2023)</i>",
+    "image": "book12",
+    "category": "books",
     "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Indian Temples",
-    "desc": "It shows temples of different sectors of India. as user clicks it will redirect to wiki of that temple for info.",
-    "image": "templeweb",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Indian Temples",
-    "desc": "It shows temples of different sectors of India. as user clicks it will redirect to wiki of that temple for info.",
-    "image": "templeweb",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Indian Temples",
-    "desc": "It shows temples of different sectors of India. as user clicks it will redirect to wiki of that temple for info.",
-    "image": "templeweb",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
+      "view": "https://doi.org/10.1063/5.0162544"
   }
+},
+{
+  "name": "smart traffic management system",
+  "desc": "We have used Mixture of Gaussian (MoG) algorithm for background subtraction technique and foreground detection, then generated capacity maps using which we found the density of traffic at that particular instant. The traffic lights at junctions are controlled dynamically based on the traffic density detected from the video feeds. <br><b>Name of the Publisher:</b> <i>Springer (2021)</i>",
+  "image": "book13",
+  "category": "books",
+  "links": {
+    "view": "https://doi.org/10.1007/978-981-16-0878-0_28"
+  }
+},
+{
+  "name": "Sign Language Recognition Using Convolutional Neural Network",
+  "desc": "In this paper, American sign language is used. This paper deals with helping specially abled people to communicate with people who don’t know sign language by using the approaches of computer vision and deep learning. Our paper uses convolutional neural network to solve this problem. <br><b>Name of the Publisher:</b> <i>Springer (2021)</i>",
+  "image": "book14",
+  "category": "books",
+  "links": {
+    "view": "https://doi.org/10.1007/978-981-15-9651-3_58"
+  }
+}
 ]

@@ -59,8 +59,8 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Jigar Sable";
-            $("#favicon").attr("href", "assets/images/favicon.png");
+            document.title = "Portfolio | Dr.S.Rakesh";
+            $("#favicon").attr("href", "assets/images/young-professor-education-favicon.png");
         }
         else {
             document.title = "Come Back To Portfolio";
@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "backend development", "web designing", "android development", "web development"],
+    strings: ["Assistant Professor in IT", "Research Scholar", "Tech Speaker", "Mentor", "Professional Teacher", "Career Advisor", "Personal Trainer"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -105,7 +105,7 @@ function showSkills(skills) {
 }
 
 function showProjects(projects) {
-    let projectsContainer = document.querySelector("#work .box-container");
+    let projectsContainer = document.querySelector("#Research-work .box-container");
     let projectHTML = "";
     projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
         projectHTML += `
@@ -119,7 +119,6 @@ function showProjects(projects) {
           <p>${project.desc}</p>
           <div class="btns">
             <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
           </div>
         </div>
       </div>
@@ -142,7 +141,7 @@ function showProjects(projects) {
     });
 
     /* SCROLL PROJECTS */
-    srtop.reveal('.work .box', { interval: 200 });
+    srtop.reveal('.Research-Research-work .box', { interval: 200 });
 
 }
 
@@ -240,7 +239,7 @@ srtop.reveal('.skills .container .bar', { delay: 400 });
 srtop.reveal('.education .box', { interval: 200 });
 
 /* SCROLL PROJECTS */
-srtop.reveal('.work .box', { interval: 200 });
+srtop.reveal('.Research-Research-work .box', { interval: 200 });
 
 /* SCROLL EXPERIENCE */
 srtop.reveal('.experience .timeline', { delay: 400 });

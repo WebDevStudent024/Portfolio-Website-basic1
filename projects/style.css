@@ -155,20 +155,20 @@ header .navbar ul li a:hover{
 }
 /* hamburger icon ends */
 
-/* work section starts */
-.work{
+/* Research-work section starts */
+.Research-work{
   /* background: #010124; */
   background: linear-gradient(to bottom, #010136, #00003a);
   margin-top: 5rem;
 }
-.work h2{
+.Research-work h2{
   color: #fff;
   padding: 1rem;
 }
-.work .heading span{
+.Research-work .heading span{
   color: rgb(255, 230, 0);
 }
-.work .button-group{
+.Research-work .button-group{
   display: flex;
   flex-wrap: wrap;
   gap:1rem;
@@ -177,7 +177,7 @@ header .navbar ul li a:hover{
   justify-content: center;
   align-items: center;
 }
-.work .button-group .btn{
+.Research-work .button-group .btn{
   outline: none;
   padding: 1rem 2rem;
   background: transparent;
@@ -187,23 +187,23 @@ header .navbar ul li a:hover{
   cursor: pointer;
   font-weight: 500;
 }
-.work .button-group .btn:hover{
+.Research-work .button-group .btn:hover{
   background-color: #fff;
   color: #000;
 }
-.work .button-group .btn.is-checked{
+.Research-work .button-group .btn.is-checked{
   background-color: #fff;
   color: #000;
 }
-.work .box-container{
+.Research-work .box-container{
   display: flex;
   flex-wrap: wrap;
-  gap:1.5rem;
+  gap: 5rem;
   margin: 2rem;
 }
-.work .box-container .box{
-  flex:1 1 30rem;
-  border-radius: .5rem;
+.Research-work .box-container .box {
+  flex: 1 1 30rem;
+  border-radius: 0.5rem;
   box-shadow: 0 .7rem 1rem rgba(0,0,0,.3);
   position: relative;
   overflow:hidden;
@@ -211,12 +211,12 @@ header .navbar ul li a:hover{
   background: #fff;
   border: none;
 }
-.work .box-container .box img{
+.Research-work .box-container .box img{
   height: 100%;
   width:100%;
-  object-fit: cover;
+  object-fit: fill;
 }
-.work .box-container .box .content{
+.Research-work .box-container .box .content{
   height: 100%;
   width:100%;
   position: absolute;
@@ -225,59 +225,60 @@ header .navbar ul li a:hover{
   display: flex;
   flex-direction: column;
 }
-.work .box-container .box .content .tag{
+.Research-work .box-container .box .content .tag{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 4.5rem;
+  height: 5.5rem;
   width: 100%;
   padding-left: 1rem;
   background: #ffd900;
 }
-.work .box-container .box .content .tag h3{
+.Research-work .box-container .box .content .tag h3{
   font-size: 2rem;
 }
-.work .box-container .box:hover .content{
+.Research-work .box-container .box:hover .content{
   top: 25%;
 }
-.work .desc {
+.Research-work .desc {
   margin: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.work .desc p{
+.Research-work .desc p{
   font-size: 1.5rem;
 }
-.work .desc .btns{
+.Research-work .desc .btns{
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
-.work .desc .btns .btn{
+.Research-work .desc .btns .btn{
   line-height: 0;
   display: inline;
   padding: 1.5rem 2.5rem;
   border-radius: .5rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #fff;
   background: rgb(12, 12, 12);
   margin-right: 2rem;
+  margin-left: 80%;
 }
-.work .desc .btns .btn:hover{
+.Research-work .desc .btns .btn:hover{
   background: #310ae0f5;
 }
 
 @media screen and (max-width: 450px) {
-  .work .button-group{
+  .Research-work .button-group{
     width: 100%;
   }
-  .work .box-container{
+  .Research-work .box-container{
     margin: 0rem;
   }
-  .work .box-container .grid-item .box{
+  .Research-work .box-container .grid-item .box{
     width: 95% !important;
   }
 }
@@ -317,7 +318,7 @@ header .navbar ul li a:hover{
 .backbtn .btn:hover i {
   transform: translateX(-8px);
 }
-/* work section ends */
+/* Research-work section ends */
 
 /* common media queries starts*/
 @media(max-width:450px){

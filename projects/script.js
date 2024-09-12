@@ -20,8 +20,8 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Projects | Portfolio Jigar Sable";
-            $("#favicon").attr("href", "/assets/images/favicon.png");
+            document.title = "Projects | Portfolio Dr.S.Rakesh";
+            $("#favicon").attr("href", "/assets/images/young-professor-education-favicon.png");
         }
         else {
             document.title = "Come Back To Portfolio";
@@ -41,12 +41,12 @@ function getProjects() {
 
 
 function showProjects(projects) {
-    let projectsContainer = document.querySelector(".work .box-container");
+    let projectsContainer = document.querySelector(".Research-work .box-container");
     let projectsHTML = "";
     projects.forEach(project => {
         projectsHTML += `
         <div class="grid-item ${project.category}">
-        <div class="box tilt" style="width: 380px; margin: 1rem">
+        <div class="box tilt" style="width: 850px; height:450px; margin: 2rem; margin-left: 24%">
       <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
       <div class="content">
         <div class="tag">
@@ -56,7 +56,6 @@ function showProjects(projects) {
           <p>${project.desc}</p>
           <div class="btns">
             <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
           </div>
         </div>
       </div>
@@ -80,7 +79,7 @@ function showProjects(projects) {
     // });
 
     // /* SCROLL PROJECTS */
-    // srtop.reveal('.work .box', { interval: 200 });
+    // srtop.reveal('.Research-work .box', { interval: 200 });
 
     // isotope filter products
     var $grid = $('.box-container').isotope({
