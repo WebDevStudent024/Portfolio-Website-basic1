@@ -15,6 +15,12 @@
     <link id='favicon' rel="shortcut icon" href="./assets/images/young-professor-education-favicon.png" type="image/x-png">
     <title>Portfolio | Rakesh Sir</title>
 
+    <!--This is for getting animation when scrolling down & up-->
+    <!-- <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: true });
+    </script> -->
+
 </head>
 <body oncontextmenu="return false">
 
@@ -151,7 +157,13 @@
   </div>
 
 <div class="viewall">
-  <a href="/projects" class="btn"><span>View All</span>
+  <a href="/projects" class="btn"><span>View All (Projects, Journals, Books)</span>
+    <i class="fas fa-arrow-right"></i>
+</a>
+</div>
+<br>
+<div class="viewPatents">
+  <a href="/projects/patents" class="btn"><span>View (Patents)</span>
     <i class="fas fa-arrow-right"></i>
 </a>
 </div>
@@ -201,6 +213,12 @@
             <p>June 2011 - May 2013</p>
         </div>
       </div>
+    </div>
+
+    <div class="morebtn">
+      <a href="/experience" class="btn"><span>View All</span>
+        <i class="fas fa-arrow-right"></i>
+    </a>
     </div>
     
 </div>
@@ -257,27 +275,82 @@
 <!-- Photo-gallery section starts -->
 <section class="gallery-container" id="gallery-container">
   <h2 class="heading"><i class="fa-solid fa-image"></i> <span>Photos</span></h2>
-  <div class="slider-wrapper">
-    <div class="slider">
-      <img id="slide-1" src="./assets/images/gallery/img0.png" alt="img0" />
-      <img id="slide-2" src="./assets/images/gallery/img2.png" alt="img2" />
-      <img id="slide-3" src="./assets/images/gallery/img3.png" alt="img3" />
-      <img id="slide-4" src="./assets/images/gallery/img4.png" alt="img4" />
-      <img id="slide-5" src="./assets/images/gallery/img5.png" alt="img5" />
-      <img id="slide-6" src="./assets/images/gallery/img6.png" alt="img6" />
-      <img id="slide-7" src="./assets/images/gallery/img7.png" alt="img7" />
+  <div class="container">
+    <input type="radio" name="images" id="i1" checked>
+    <input type="radio" name="images" id="i2">
+    <input type="radio" name="images" id="i3">
+    <input type="radio" name="images" id="i4">
+    <input type="radio" name="images" id="i5">
+    <input type="radio" name="images" id="i6">
+    <input type="radio" name="images" id="i7">
+    <div class="slide_img" id="one">
+      <img src="./assets/images/gallery/img0.png" alt="img0" />
+        <label for="i7" class="prev"></label>
+        <label for="i2" class="next"></label>
     </div>
-    <div class="slider-nav">
-      <a href="#slide-1"></a>
-      <a href="#slide-2"></a>
-      <a href="#slide-3"></a>
-      <a href="#slide-4"></a>
-      <a href="#slide-5"></a>
-      <a href="#slide-6"></a>
-      <a href="#slide-7"></a>
+    <div class="slide_img" id="two">
+      <img src="./assets/images/gallery/img2.png" alt="img2" />
+        <label for="i1" class="prev"></label>
+        <label for="i3" class="next"></label>
+    </div>
+    <div class="slide_img" id="three">
+      <img src="./assets/images/gallery/img3.png" alt="img3" />
+        <label for="i2" class="prev"></label>
+        <label for="i4" class="next"></label>
+    </div>
+    <div class="slide_img" id="four">
+      <img src="./assets/images/gallery/img4.png" alt="img4" />
+        <label for="i3" class="prev"></label>
+        <label for="i5" class="next"></label>
+    </div>
+    <div class="slide_img" id="five">
+      <img src="./assets/images/gallery/img5.png" alt="img5" />
+        <label for="i4" class="prev"></label>
+        <label for="i6" class="next"></label>
+    </div>
+    <div class="slide_img" id="six">
+      <img src="./assets/images/gallery/img6.png" alt="img6" />
+        <label for="i5" class="prev"></label>
+        <label for="i7" class="next"></label>
+    </div>
+    <div class="slide_img" id="seven">
+      <img src="./assets/images/gallery/img7.png" alt="img7" />
+        <label for="i6" class="prev"></label>
+        <label for="i1" class="next"></label>
     </div>
 
+    <div class="nav-auto">
+      <div class="auto-btn-1"></div>
+      <div class="auto-btn-2"></div>
+      <div class="auto-btn-3"></div>
+      <div class="auto-btn-4"></div>
+      <div class="auto-btn-5"></div>
+      <div class="auto-btn-6"></div>
+      <div class="auto-btn-7"></div>
+    </div>
+
+    <div class="nav">
+      <label class="dots" id="dot1" for="i1"></label>
+      <label class="dots" id="dot2" for="i2"></label>
+      <label class="dots" id="dot3" for="i3"></label>
+      <label class="dots" id="dot4" for="i4"></label>
+      <label class="dots" id="dot5" for="i5"></label>
+      <label class="dots" id="dot6" for="i6"></label>
+      <label class="dots" id="dot7" for="i7"></label>
+    </div>
   </div>
+
+  <script>
+    var counter = 1;
+    setInterval(function(){
+      document.getElementById('i'+counter).checked = true;
+      counter++;
+
+      if(counter>7){
+        counter = 1
+      }
+    },5000)
+  </script>
 
 </section>
 <!-- Photo-gallery section ends -->
@@ -343,6 +416,8 @@
           <a href="#Research-work"><i class="fas fa-chevron-circle-right"></i> Research work</a>
           <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
           <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+          <a href="#gallery-container"><i class="fas fa-chevron-circle-right"></i> Gallery</a>
+          <a href="#contact"><i class="fas fa-chevron-circle-right"></i> Contact</a>
       </div>
 
       <div class="box">
@@ -379,7 +454,7 @@
 <!-- typed.js cdn -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<!-- particle.js links -->
+<!-- particle.js links : for moving connected dots at home section-->
 <script src="./assets/js/particles.min.js"></script>
 <script src="./assets/js/app.js"></script>
 
