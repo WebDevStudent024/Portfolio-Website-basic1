@@ -652,17 +652,17 @@ header .navbar ul li a:hover {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 5.5rem;
+  height: 7rem;
   width: 100%;
   padding-left: 1rem;
   background: #ffd900;
 }
 .Research-work .box-container .box .content .tag h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .Research-work .box-container .box:hover .content {
-  top: 25%;
+  top: 20%;
 }
 .Research-work .desc {
   margin: 2rem;
