@@ -763,9 +763,6 @@ header .navbar ul li a:hover {
 /* Research-work section ends */
 
 /* experience section starts */
-.experience {
-  min-height: 100%;
-}
 .experience .timeline {
   padding: 4%;
   position: relative;
@@ -942,7 +939,7 @@ header .navbar ul li a:hover {
 /* education section starts */
 .education {
   background: #e5ecfb;
-  min-height: 100%;
+  min-height: 80vh;
 }
 .education .qoute {
   font-size: 1.5rem;
@@ -1049,7 +1046,7 @@ header .navbar ul li a:hover {
 /* gallery section starts here */
 
 .gallery-container {
-  min-height: 100%;  
+  min-height: 70vh;
   background: linear-gradient(to bottom, #adabb0, #8ae5e7);
 }
 .gallery-container .heading span {
@@ -1060,11 +1057,7 @@ header .navbar ul li a:hover {
 }
 .gallery-container .container {
   margin: 0 auto;
-  margin-top: 20px;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  padding-bottom: 40%;
+  background-color: #e29a3c;
   border-radius: 1.5rem;
   border: solid 10px #2c2c2c;
 }
@@ -1086,67 +1079,10 @@ header .navbar ul li a:hover {
   width: 12%;
   height: 100%;
   position: absolute;
-  top: 0;
-  background: rgb(104, 100, 97);
-  z-index: 99;
-  cursor: pointer;
-}
-.gallery-container .container .slide_img .prev {
-  left: 0;
-}
-.gallery-container .container .slide_img .next {
-  right: 0;
-}
-.gallery-container .container .nav {
-  width: 100%;
-  height: 11px;
-  bottom: 12%;
-  position: absolute;
-  text-align: center;
-  z-index: 99;
-}
-.gallery-container .container .nav .dots {
-  top: -5px;
-  width: 17px;
-  height: 17px;
-  margin: 0 4px;
-  position: relative;
-  border-radius: 50%;
-  display: inline-block;
-  background: rgba(0, 0, 0, .4);
-}
-.gallery-container .container .nav-auto {
-  position: absolute;
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  margin-top: 460px;
-}
-.gallery-container .container .nav-auto div {
-  border: 2px solid #333;
-  padding: 5px;
-  border-radius: 10px;
-  transition: 1s;
-}
-.gallery-container .container .nav-auto div:not(:last-child) {
-  margin-right: 40px;
-}
-#i1:checked ~ #one,
-#i2:checked ~ #two,
-#i3:checked ~ #three,
-#i4:checked ~ #four,
-#i5:checked ~ #five {
-  z-index: 9;
-}
-/* #i6:checked ~ #six  */
-/* #i7:checked ~ #seven  */
-
-#i1:checked ~ .nav #dot1,
-#i2:checked ~ .nav #dot2,
-#i3:checked ~ .nav #dot3,
-#i4:checked ~ .nav #dot4,
-#i5:checked ~ .nav #dot5 {
-  background: #fff;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
 }
 /* #i6:checked ~ .nav #dot6  */
 
@@ -1171,7 +1107,7 @@ header .navbar ul li a:hover {
 /* contact section starts */
 .contact {
   background: #343934;
-  min-height: 60vh;
+  min-height: 100vh;
 }
 
 .contact .heading {
