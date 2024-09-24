@@ -46,24 +46,25 @@ function showProjects(projects) {
     projects.forEach(project => {
         projectsHTML += `
         <div class="grid-item ${project.category}">
-        <div class="box tilt" style="width: 850px; height:450px; margin: 2rem; margin-left: 24%">
-      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
-      <div class="content">
-        <div class="tag">
-        <h3>${project.name}</h3>
-        </div>
-        <div class="desc">
-          <p>${project.desc}</p>
-          <div class="btns">
-            <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>`
+            <div class="box tilt" style="width: 350px; height: 550px; margin: 1rem">
+                <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+                <div class="content">
+                    <div class="tag">
+                        <h3>${project.name}</h3>
+                    </div>
+                    <div class="desc">
+                        <p>${project.desc}</p>
+                        <div class="btns">
+                            <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>`
     });
     projectsContainer.innerHTML = projectsHTML;
 
+    //style="width: 850px; height:450px; margin: 2rem; margin-left: 24%"
     // vanilla tilt.js
     // VanillaTilt.init(document.querySelectorAll(".tilt"), {
     //     max: 20,

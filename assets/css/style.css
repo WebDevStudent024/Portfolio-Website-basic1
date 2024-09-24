@@ -41,7 +41,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 /* pre loader start */
-.loader-container {
+/* .loader-container {
   position: fixed;
   top: 0;
   left: 0;
@@ -55,7 +55,7 @@ html::-webkit-scrollbar-thumb {
 }
 .loader-container.fade-out {
   top: -120%;
-}
+} */
 /* pre loader end */
 
 /* navbar starts */
@@ -222,7 +222,7 @@ header .navbar ul li a:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 .home .content h2 {
-  font-size: 5rem;
+  font-size: 7rem;
   font-weight: 800;
   color: #002057;
 }
@@ -306,25 +306,51 @@ header .navbar ul li a:hover {
   color: #fff;
   background-color: #0685da;
 }
-.social-icons a.github:hover {
+/* .social-icons a.github:hover {
   background-color: #0e0e0e;
-}
-.social-icons a.twitter:hover {
+} */
+/* .social-icons a.twitter:hover {
   background-color: #00aced;
-}
+} */
 .social-icons a.linkedin:hover {
   background-color: #007bb6;
 }
-.social-icons a.dev:hover {
-  background-color: #070707;
-}
+
 .social-icons a.instagram:hover {
   background-color: #ee00da;
+}
+.social-icons a.research-logo0:hover {
+  background-color: #070707;
+}
+.social-icons a.research-logo1:hover {
+  background-color: #070707;
 }
 /* social icons end */
 
 /* hero media queries starts*/
-@media (max-width: 450px) {
+@media screen and (min-width: 601px) {
+  .home .content h2 {
+    font-size: 70px;
+    font-weight: 800;
+    color: #002057;
+  }
+  .home .content h2 span {
+    font-size: 75px;
+    font-weight: 800;
+    color: #ff7b00;
+  }
+  .home .content p {
+    font-size: 40px;
+    color: #000;
+    font-weight: 600;
+    padding: 1rem 0;
+  }
+  .home .content p span {
+    font-size: 40px;
+    color: rgb(148, 8, 8);
+    font-weight: 600;
+    padding: 1rem 0;
+  }
   .home .btn {
     margin: 4rem 0;
   }
@@ -339,6 +365,52 @@ header .navbar ul li a:hover {
   }
   .home .content p span {
     font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #home {
+    margin-top: -2rem;
+  }
+  .home .content {
+    margin-top: -5rem;
+  }
+  .home .content h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #002057;
+  }
+  .home .content h2 span {
+    font-size: 40px;
+    font-weight: 800;
+    color: #ff7b00;
+  }
+  .home .content p {
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    padding: 1rem 0;
+  }
+  .home .content p span {
+    font-size: 24px;
+    color: rgb(148, 8, 8);
+    font-weight: 600;
+    padding: 1rem 0;
+  }
+  .home .content p {
+    font-size: 2.2rem;
+  }
+  .home .content p span {
+    font-size: 2.2rem;
+  }
+  .home .btn {
+    margin: 2.5rem 0;
+  }
+  .socials {
+    margin-top: 9rem;
+  }
+  .home .image img {
+    margin-top: -20rem;
   }
 }
 /* hero media queries ends*/
@@ -441,7 +513,7 @@ header .navbar ul li a:hover {
   }
   .about .row .image img {
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
     mix-blend-mode: normal;
   }
   .about .row {
@@ -474,13 +546,13 @@ header .navbar ul li a:hover {
   color: #fff;
   border-radius: 1rem;
   padding: 2rem;
-  width: 95%;
+  width: 90%;
   margin: auto;
   margin-top: 2rem;
 }
 .skills .container .row {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   flex-wrap: wrap;
   gap: 1.8rem;
 }
@@ -605,8 +677,8 @@ header .navbar ul li a:hover {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-top: 2rem;
-  margin-left: 75%;
+  margin-top: 1rem;
+  /* margin-left: 75%; */
 }
 .Research-work .desc .btns .btn {
   line-height: 0;
@@ -616,7 +688,8 @@ header .navbar ul li a:hover {
   font-size: 1.5rem;
   color: #fff;
   background: rgb(12, 12, 12);
-  margin-right: 2rem;
+  /* margin-right: 2rem; */
+  margin: auto;
 }
 .Research-work .desc .btns .btn:hover {
   background: #310ae0f5;
@@ -654,13 +727,49 @@ header .navbar ul li a:hover {
 .Research-work .viewall .btn:hover i {
   transform: translateX(5px);
 }
+.Research-work .viewPatents {
+  display: flex;
+  justify-content: center;
+}
+.Research-work .viewPatents .btn {
+  position: relative;
+  line-height: 0;
+  padding: 1.6rem 3rem;
+  border-radius: 0.5em;
+  transition: 0.5s;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  border: 2px solid #fff;
+  box-shadow: 0px 5px 10px rgba(65, 84, 241, 0.4);
+  text-align: center;
+}
+.Research-work .viewPatents .btn span {
+  font-weight: 600;
+  font-size: 1.7rem;
+  font-family: "Nunito", sans-serif;
+}
+.Research-work .viewPatents .btn i {
+  margin-left: 0.3rem;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+.Research-work .viewPatents .btn:hover {
+  background: #fff;
+  color: #000;
+}
+.Research-work .viewPatents .btn:hover i {
+  transform: translateX(5px);
+}
 /* Research-work section ends */
 
 /* experience section starts */
+.experience {
+  min-height: 100%;
+}
 .experience .timeline {
   padding: 4%;
   position: relative;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
 }
 .experience .timeline::after {
@@ -696,7 +805,7 @@ header .navbar ul li a:hover {
   text-align: center;
   font-weight: 600;
   color: #02094b;
-  font-family: "Font Awesome\ 5 Free";
+  font-family: "Font Awesome\ 6 Free";
 }
 .experience .left {
   left: 0;
@@ -755,14 +864,15 @@ header .navbar ul li a:hover {
   font-size: 1.2rem;
 }
 /* view all button */
-/* .morebtn {
+.morebtn {
   display: flex;
   justify-content: center;
 }
 .morebtn .btn {
-  position: relative;
+  position: absolute;
   line-height: 0;
   padding: 1.6rem 3rem;
+  margin-top: 2rem;
   border-radius: 0.5em;
   transition: 0.5s;
   color: #fff;
@@ -785,12 +895,12 @@ header .navbar ul li a:hover {
 }
 .morebtn .btn:hover i {
   transform: translateX(5px);
-} */
+}
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .experience {
-    min-height: 80vh;
+    min-height: 90vh;
   }
   .experience .timeline {
     margin-top: 2rem;
@@ -824,7 +934,7 @@ header .navbar ul li a:hover {
   .morebtn {
     margin-top: 3rem;
   }
-} */
+}
 /* experience media queries ends */
 /* experience section ends */
 
@@ -832,7 +942,7 @@ header .navbar ul li a:hover {
 /* education section starts */
 .education {
   background: #e5ecfb;
-  min-height: 80vh;
+  min-height: 100%;
 }
 .education .qoute {
   font-size: 1.5rem;
@@ -851,7 +961,7 @@ header .navbar ul li a:hover {
 .education .box-container .box {
   display: flex;
   flex-direction: row;
-  width: 80%;
+  width: 100%;
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -939,7 +1049,7 @@ header .navbar ul li a:hover {
 /* gallery section starts here */
 
 .gallery-container {
-  min-height: 70vh;
+  min-height: 100%;  
   background: linear-gradient(to bottom, #adabb0, #8ae5e7);
 }
 .gallery-container .heading span {
@@ -948,36 +1058,110 @@ header .navbar ul li a:hover {
 .gallery-container {
   padding: 2rem;
 }
-.gallery-container .slider-wrapper {
-  position: relative;
-  max-width: 48rem;
+.gallery-container .container {
   margin: 0 auto;
-  background-color: #e29a3c;
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 40%;
   border-radius: 1.5rem;
+  border: solid 10px #2c2c2c;
 }
-.gallery-container .slider {
-  display: flex;
-  aspect-ratio: 16 / 9;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
-  border-radius: 1.5rem;
-}
-.gallery-container .slider img {
-  flex: 1 0 100%;
-  scroll-snap-align: start;
-  object-fit: contain;
-}
-.gallery-container .slider-nav {
-  display: flex;
-  column-gap: 1rem;
+.gallery-container .container .slide_img {
   position: absolute;
-  bottom: 1.25rem;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
+.gallery-container .container .slide_img img {
+  width: 100%;
+  height: 100%;
+}
+#i1, #i2, #i3, #i4, #i5, #i6, #i7 {
+  display: none;  
+}
+.gallery-container .container .slide_img .prev, .next {
+  opacity: 0.2;
+  width: 12%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: rgb(104, 100, 97);
+  z-index: 99;
+  cursor: pointer;
+}
+.gallery-container .container .slide_img .prev {
+  left: 0;
+}
+.gallery-container .container .slide_img .next {
+  right: 0;
+}
+.gallery-container .container .nav {
+  width: 100%;
+  height: 11px;
+  bottom: 12%;
+  position: absolute;
+  text-align: center;
+  z-index: 99;
+}
+.gallery-container .container .nav .dots {
+  top: -5px;
+  width: 17px;
+  height: 17px;
+  margin: 0 4px;
+  position: relative;
+  border-radius: 50%;
+  display: inline-block;
+  background: rgba(0, 0, 0, .4);
+}
+.gallery-container .container .nav-auto {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 460px;
+}
+.gallery-container .container .nav-auto div {
+  border: 2px solid #333;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.gallery-container .container .nav-auto div:not(:last-child) {
+  margin-right: 40px;
+}
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three,
+#i4:checked ~ #four,
+#i5:checked ~ #five {
+  z-index: 9;
+}
+/* #i6:checked ~ #six  */
+/* #i7:checked ~ #seven  */
+
+#i1:checked ~ .nav #dot1,
+#i2:checked ~ .nav #dot2,
+#i3:checked ~ .nav #dot3,
+#i4:checked ~ .nav #dot4,
+#i5:checked ~ .nav #dot5 {
+  background: #fff;
+}
+/* #i6:checked ~ .nav #dot6  */
+
+/* #i7:checked ~ .nav #dot7  */
+
+/* gallery section media queries starts */
+@media (max-width: 900px) {
+  .gallery-container {
+    min-height: 40vh;
+  }
+  .gallery-container .container {
+    margin: 3rem 0 2rem 0;
+  }
+}
+/* gallery section media queries ends */
 
 /* gallery section ends here */
 
@@ -999,7 +1183,7 @@ header .navbar ul li a:hover {
   width: 100%;
   background: #99cae4;
   border-radius: 1.5rem;
-  margin: 3rem 10rem;
+  margin: 2rem 5rem;
   /* margin-left: auto; */
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
@@ -1010,13 +1194,13 @@ header .navbar ul li a:hover {
   padding: 2.5rem 2rem;
 }
 .contact .content .image-box {
-  max-width: 50%;
-  margin-left: 2rem;
+  max-width: 60%;
+  margin-left: 4rem;
 }
 .contact .content .image-box img {
   width: 100%;
-  height: 30rem;
-  margin-bottom: 3.5rem;
+  height: 40rem;
+  /* margin-bottom: 3.5rem; */
   position: relative;
 }
 .contact .content form {

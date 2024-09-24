@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Assistant Professor in IT", "Research Scholar", "Tech Speaker", "Mentor", "Professional Teacher", "Career Advisor", "Personal Trainer"],
+    strings: ["Asst Prof in Dept. Of IT", "Researcher", "Tech Speaker", "Mentor", "Professional Teacher", "Career Advisor", "Personal Trainer"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -107,22 +107,22 @@ function showSkills(skills) {
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#Research-work .box-container");
     let projectHTML = "";
-    projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
+    projects.slice(0, 6).filter(project => project.category != "books").forEach(project => {
         projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
-      <div class="content">
-        <div class="tag">
-        <h3>${project.name}</h3>
-        </div>
-        <div class="desc">
-          <p>${project.desc}</p>
-          <div class="btns">
-            <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-          </div>
-        </div>
-      </div>
-    </div>`
+            <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+            <div class="content">
+                <div class="tag">
+                    <h3>${project.name}</h3>
+                </div>
+                <div class="desc">
+                    <p>${project.desc}</p>
+                    <div class="btns">
+                        <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                    </div>
+                </div>
+            </div>
+        </div>`
     });
     projectsContainer.innerHTML = projectHTML;
 
@@ -141,7 +141,7 @@ function showProjects(projects) {
     });
 
     /* SCROLL PROJECTS */
-    srtop.reveal('.Research-Research-work .box', { interval: 200 });
+    srtop.reveal('.Research-work .box', { interval: 200 });
 
 }
 
@@ -217,13 +217,12 @@ srtop.reveal('.home .content .btn', { delay: 200 });
 
 srtop.reveal('.home .image', { delay: 400 });
 srtop.reveal('.home .linkedin', { interval: 600 });
-srtop.reveal('.home .github', { interval: 800 });
-srtop.reveal('.home .twitter', { interval: 1000 });
-srtop.reveal('.home .telegram', { interval: 600 });
 srtop.reveal('.home .instagram', { interval: 600 });
-srtop.reveal('.home .dev', { interval: 600 });
+srtop.reveal('.home .research-logo0', { interval: 600 });
+srtop.reveal('.home .research-logo1', { interval: 600 });
 
 /* SCROLL ABOUT */
+srtop.reveal('.about .row img', { delay: 200 });
 srtop.reveal('.about .content h3', { delay: 200 });
 srtop.reveal('.about .content .tag', { delay: 200 });
 srtop.reveal('.about .content p', { delay: 200 });
@@ -235,15 +234,19 @@ srtop.reveal('.about .content .resumebtn', { delay: 200 });
 srtop.reveal('.skills .container', { interval: 200 });
 srtop.reveal('.skills .container .bar', { delay: 400 });
 
-/* SCROLL EDUCATION */
-srtop.reveal('.education .box', { interval: 200 });
-
 /* SCROLL PROJECTS */
-srtop.reveal('.Research-Research-work .box', { interval: 200 });
+srtop.reveal('.Research-work .box', { interval: 200 });
 
 /* SCROLL EXPERIENCE */
 srtop.reveal('.experience .timeline', { delay: 400 });
 srtop.reveal('.experience .timeline .container', { interval: 400 });
+
+/* SCROLL EDUCATION */
+srtop.reveal('.education .box', { interval: 200 });
+
+/* SCROLL Gallery */
+srtop.reveal('.gallery-container', { delay: 400 });
+srtop.reveal('.gallery-container .container', { interval: 400 });
 
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container', { delay: 400 });

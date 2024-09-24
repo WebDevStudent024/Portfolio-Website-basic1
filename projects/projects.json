@@ -1,47 +1,7 @@
 [
   {
-    "name": "NotyStack Android",
-    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
-    "image": "notystackandroid",
-    "category": "android",
-    "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/notystack-android"
-    }
-  },
-  {
-    "name": "SPPU Engg Prep",
-    "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
-    "image": "sppuprepandroid",
-    "category": "android",
-    "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/sppu-prep-android"
-    }
-  },
-  {
-    "name": "NewsBox Android",
-    "desc": "Native android app built using Java, XML. Retrofit & Glide dependencies. Provides different category news.",
-    "image": "newsboxandroid",
-    "category": "android",
-    "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/newsbox-android"
-    }
-  },
-  {
-    "name": "Weatherly Android",
-    "desc": "Native android app built using Java, XML and Volley dependencies. Provides weather forecast.",
-    "image": "weatherlyandroid",
-    "category": "android",
-    "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/weatherly-android"
-    }
-  },
-  {
     "name": "Road Traffic AI-based Solution",
-    "desc": "Urban Traffic Anomalies Detection using Deep-Learning and IoT <h4><ul> <li>Proposed Budget: Rs 29.63 Lakhs</li> <li>Funding Agency: SERB (SURE Scheme)</li> <li>Application Status: Submitted</li> </ul></h4>",
+    "desc": "Urban Traffic Anomalies Detection using Deep-Learning and IoT <h3><ul> <li>Proposed Budget: Rs 29.63 Lakhs</li> <li>Funding Agency: SERB (SURE Scheme)</li> <li>Application Status: Submitted</li> </ul></h2>",
     "image": "Traffic-AI-control",
     "category": "research-project",
     "links": {
@@ -50,7 +10,7 @@
   },
   {
     "name": "Chronic Diseases Prediction",
-    "desc": "Federated Approaches to Chronic Disease Prediction and Drug Recommendation in Healthcare <h4><ul> <li>Proposed Budget: Rs 23.14 Lakhs</li> <li>Funding Agency: Ministry of Electronics and Information Technology </li> <li>Application Status: Submitted</li> </ul></h4>",
+    "desc": "Federated Approaches to Chronic Disease Prediction and Drug Recommendation in Healthcare <h3><ul> <li>Proposed Budget: Rs 23.14 Lakhs</li> <li>Funding Agency: Ministry of Electronics and Information Technology </li> <li>Application Status: Submitted</li> </ul></h3>",
     "image": "project2-healthcare",
     "category": "research-project",
     "links": {
@@ -59,7 +19,7 @@
   },
   {
     "name": "BCUI analysis system",
-    "desc": "This research describes an intelligent BC (breast cancer) image analysis system that leverages the capabilities of transfer learning (TLs) with ensemble stacking ML models. <br><b>Name of the Journal:</b> <i>IEEE Access (2024)</i>",
+    "desc": "This research describes an intelligent BC (breast cancer) image analysis system that leverages the capabilities of transfer learning (TLs) with ensemble stacking ML models.",
     "image": "paper1-journal",
     "category": "research-journal",
     "links": {
@@ -68,7 +28,7 @@
   },
   {
     "name": "Moving-Object Detection",
-    "desc": "<small>Through the use of cutting-edge techniques, the current study seeks to improve the performance accuracy of object detection techniques based on Gaussian Mixture Models (GMM). It is achieved by developing crucial phases in the object detecting process.</small><br><b>Name of the Journal:</b> <i>Elsevier Measurement: Sensors (2023)</i>",
+    "desc": "Through the use of cutting-edge techniques, the current study seeks to improve the performance accuracy of object detection techniques based on Gaussian Mixture Models (GMM). It is achieved by developing crucial phases in the object detecting process.",
     "image": "paper2-journal",
     "category": "research-journal",
     "links": {
@@ -77,7 +37,7 @@
   },
   {
     "name": "Aspect-based sentiment analysis on multi-domain reviews through word embedding",
-    "desc": "In this work, the proposed system develops a framework that effectively gathers product reviews from various e-commerce websites. Identifies product attributes and related adjectives. Checks and corrects structural text discrepancies<br><b>Name of the Journal:</b> <i>De Gruyter Journal of Intelligent-Systems (2023)</i>",
+    "desc": "In this work, the proposed system develops a framework that effectively gathers product reviews from various e-commerce websites. Identifies product attributes and related adjectives. Checks and corrects structural text discrepancies",
     "image": "paper3-journal",
     "category": "research-journal",
     "links": {
@@ -86,7 +46,7 @@
   },
   {
     "name": "Control Traffic Congestion using IP",
-    "desc": "A New Method to Control Traffic Congestion by Calculating Traffic Density using image processing methods <br><b>Name of the Journal:</b> <i>International Journal of Intelligent Systems and Applications in Engineering (2022) </i>",
+    "desc": "A New Method to Control Traffic Congestion by Calculating Traffic Density using image processing methods",
     "image": "paper4-journal",
     "category": "research-journal",
     "links": {
@@ -95,7 +55,7 @@
   },
   {
     "name": "A Framework for Intelligent Traffic Control System",
-    "desc": "This paper illustrates a novel technique named Edge Detection and Moving Object Detection (EDMOD) algorithm, which uses ED and MOD approaches to find the real-time area-wide density of the traffic at the traffic light junction by dividing the Region of Interest (ROI) into two regions. <br><b>Name of the Journal:</b> <i>International Journal of Engineering Trends and Technology (2022) </i>",
+    "desc": "This paper illustrates a novel technique named Edge Detection and Moving Object Detection (EDMOD) algorithm, which uses ED and MOD approaches to find the real-time area-wide density of the traffic at the traffic light junction by dividing the Region of Interest (ROI) into two regions.",
     "image": "paper5-journal",
     "category": "research-journal",
     "links": {
@@ -104,7 +64,7 @@
   },
   {
     "name": "Smart Wearable Device for Women Safety Using IoT",
-    "desc": "In this paper, a smart device for women's safety which automates the emergency alert system by using pressure sensor,pulse-rate sensor and temperature sensor to detect a possible atrocity automatically using outlier detection is proposed. <br><b>Name of the Journal:</b> <i>IEEE Xplore (2020)</i>",
+    "desc": "In this paper, a smart device for women's safety which automates the emergency alert system by using pressure sensor,pulse-rate sensor and temperature sensor to detect a possible atrocity automatically using outlier detection is proposed.",
     "image": "paper6-journal",
     "category": "research-journal",
     "links": {
@@ -113,7 +73,7 @@
   },
   {
     "name": "Vehicle Detection and Classification System by GMM",
-    "desc": "This paper provides an overview on vehicle detection and classification system by gaussian mixture models. <br><b>Name of the Journal:</b> <i>International Journal of Scientific Research in Science and Technology (2020)</i>",
+    "desc": "This paper provides an overview on vehicle detection and classification system by gaussian mixture models.",
     "image": "paper7-journal",
     "category": "research-journal",
     "links": {
@@ -122,7 +82,7 @@
   },
   {
     "name": "Fake face image detection using feature network",
-    "desc": "In this paper, a deep learning framework is proposed that differentiates fabricated parts of the image from the real image using supervised learning strategies. Also a modified neural network structure called the Fake Feature Network is proposed in this work which consists of advanced convolution networks. <br><b>Name of the Journal:</b> <i>International Journal of Health Sciences, ISSN:2550-6978 (2022)</i>",
+    "desc": "In this paper, a deep learning framework is proposed that differentiates fabricated parts of the image from the real image using supervised learning strategies. Also a modified neural network structure called the Fake Feature Network is proposed in this work which consists of advanced convolution networks.",
     "image": "paper8-journal",
     "category": "research-journal",
     "links": {
@@ -131,7 +91,7 @@
   },
   {
     "name": "Enabling effective location-based services for road networks using spatial mining",
-    "desc": "We found that traditional distance measures don't work well for finding frequent co-location instances in geographic data. We studied how network distance affects co-location patterns in spatial data. We modified the existing CPMS model and added a new interesting measure to it. <br><b>Name of the Journal:</b> <i>International Journal of Health Sciences, ISSN:2550-6978 (2022)</i>",
+    "desc": "We found that traditional distance measures don't work well for finding frequent co-location instances in geographic data. We studied how network distance affects co-location patterns in spatial data. We modified the existing CPMS model and added a new interesting measure to it.",
     "image": "paper9-journal",
     "category": "research-journal",
     "links": {
@@ -140,7 +100,7 @@
   },
   {
     "name": "Speed Checker and Reporting System",
-    "desc": "In this project, we find the lorries and also track them in web traffic videos and approximate their speed. We follow the 'identity  after  that  track'  approach  Artificial  intelligence  and  also Computer  system  vision  strategies  are  utilized for object tracking. <br><b>Name of the Journal:</b> <i>International Journal of Health Sciences, ISSN:2550-6978 (2022)</i>",
+    "desc": "In this project, we find the lorries and also track them in web traffic videos and approximate their speed. We follow the 'identity  after  that  track'  approach  Artificial  intelligence  and  also Computer  system  vision  strategies  are  utilized for object tracking.",
     "image": "paper10-journal",
     "category": "research-journal",
     "links": {
@@ -149,7 +109,7 @@
   },
   {
     "name": "Brain Tumor Detection with Deep Learning on MRI Image Dataset",
-    "desc": "In this paper we have presented the two models, Inception V3 and VGG-Net. The main aim of this paper is to find the best technique (using deep convolutional neural networks) to detect the brain tumor from the MRI scanned images. The proposed models have given good results with good accuracy. <br><b>Name of the Journal:</b> <i>International Journal for Research in Applied Science & Engineering Technology (IJRASET) ISSN: 2321-9653; (2021)</i>",
+    "desc": "In this paper we have presented the two models, Inception V3 and VGG-Net. The main aim of this paper is to find the best technique (using deep convolutional neural networks) to detect the brain tumor from the MRI scanned images. The proposed models have given good results with good accuracy.",
     "image": "paper11-journal",
     "category": "research-journal",
     "links": {
@@ -158,7 +118,7 @@
   },
   {
     "name": "Hashtag Generation with Transfer Learning",
-    "desc": "This paper focuses on providing trending hashtags for businesses to increase their reach in the market and also help users find their desired product. It starts with data collection and preprocessing. Then, it uses several pre-trained models for transfer learning. The results from these models are compared to find the best one for identifying trending hashtags. <br><b>Name of the Journal:</b> <i>(IJRASET) ISSN: 2321-9653; (2021)</i>",
+    "desc": "This paper focuses on providing trending hashtags for businesses to increase their reach in the market and also help users find their desired product. It starts with data collection and preprocessing. Then, it uses several pre-trained models for transfer learning. The results from these models are compared to find the best one for identifying trending hashtags.",
     "image": "paper12-journal",
     "category": "research-journal",
     "links": {
@@ -168,7 +128,7 @@
   },
   {
     "name": "Smart Irrigation And Leaf Disease Detection Using IoT And CNN",
-    "desc": "The project was proposed with the idea of diagnosing plant diseases using machine learning. The Raspberry Camera Module is used to capture infected leaves and image processing to detect the disease. Open CV and Tensor Flow used for the purpose of disease identification. <br><b>Name of the Journal:</b> <i>International Journal of Computer Science and Engineering (IJCSE) (2020)</i>",
+    "desc": "The project was proposed with the idea of diagnosing plant diseases using machine learning. The Raspberry Camera Module is used to capture infected leaves and image processing to detect the disease. Open CV and Tensor Flow used for the purpose of disease identification.",
     "image": "paper13-journal",
     "category": "research-journal",
     "links": {
@@ -177,7 +137,7 @@
   },
   {
     "name": "Automatic Traffic Density Estimation And Vehicle Classification Method Using Neural Network",
-    "desc": "In this particular paper, the prophecy of blockage is actually operationalized by utilizing the formula of back proliferation to teach the semantic network. As well as additionally within this paper, automatic web traffic density evaluation and vehicle distinction approach making use of neural network appears. <br><b>Name of the Journal:</b> <i>International Journal of Scientific & Technology Research (IJSTR) (2020)</i>",
+    "desc": "In this particular paper, the prophecy of blockage is actually operationalized by utilizing the formula of back proliferation to teach the semantic network. As well as additionally within this paper, automatic web traffic density evaluation and vehicle distinction approach making use of neural network appears.",
     "image": "paper14-journal",
     "category": "research-journal",
     "links": {
@@ -186,7 +146,7 @@
   },
   {
     "name": "Facial Emotion Detection using Convolutional Neural Networks",
-    "desc": " In this paper, we are proposing an algorithm which trains the FER 2013 dataset and builds a model. This model is used to predict human emotions using deep CNN (Convolution Neural Networks). <br><b>Name of the Journal:</b> <i>International Journal of Computer Science and Engineering (IJCSE) (2019)</i>",
+    "desc": " In this paper, we are proposing an algorithm which trains the FER 2013 dataset and builds a model. This model is used to predict human emotions using deep CNN (Convolution Neural Networks).",
     "image": "paper15-journal",
     "category": "research-journal",
     "links": {
@@ -195,7 +155,7 @@
   },
   {
     "name": "Internet of Things and Big Data Analytics for developing Smart Cities: A Review",
-    "desc": "In this paper we present the review of few latest IEEE research articles which may help in developing future smart solutions. <br><b>Name of the Journal:</b> <i>International Journal of Computer Science and Engineering (IJCSE) (2019)</i> ",
+    "desc": "In this paper we present the review of few latest IEEE research articles which may help in developing future smart solutions.",
     "image": "paper16-journal",
     "category": "research-journal",
     "links": {
@@ -205,7 +165,7 @@
 
   {
     "name": "Remote Sensing Image Captioning Using Deep Learning",
-    "desc": "In the realm of remote sensing image captioning, the prevailing approach predominantly employs encoder-decoder frameworks. In this framework, the image input is encoded by a convolutional neural network (CNN), and a recurrent neural network (RNN) deciphers this encoded information into coherent sentence descriptions. <br><b>Name of the Publisher:</b> <i>IEEE (2024)</i> ",
+    "desc": "In the realm of remote sensing image captioning, the prevailing approach predominantly employs encoder-decoder frameworks. In this framework, the image input is encoded by a convolutional neural network (CNN), and a recurrent neural network (RNN) deciphers this encoded information into coherent sentence descriptions.",
     "image": "book1",
     "category": "books",
     "links": {
@@ -215,7 +175,7 @@
   
   {
     "name": "Handwritten text recognition using deep learning techniques",
-    "desc": "This paper has successfully addressed the intricate challenge of converting handwritten text to digital format with a high value of accuracy and efficiency. Leveraging cutting-edge OCR technology, digital image processing techniques, and machine and deep learning algorithms, we have created a robust solution that preserves context and enhances accessibility. <br><b>Name of the Publisher:</b> <i>MATEC Web Conf. (2024)</i>",
+    "desc": "This paper has successfully addressed the intricate challenge of converting handwritten text to digital format with a high value of accuracy and efficiency. Leveraging cutting-edge OCR technology, digital image processing techniques, and machine and deep learning algorithms, we have created a robust solution that preserves context and enhances accessibility.",
     "image": "book2",
     "category": "books",
     "links": {
@@ -224,7 +184,7 @@
   },
   {
     "name": "Optimizing Chronic Kidney Disease Diagnosis in Uddanam",
-    "desc": "In our research, we gathered data about personal and clinical of 1,055 individuals living in the Uddanam area (Srikakulam district of Andhra Pradesh, India). Among these, 656 had CKD, and 399 did not. We looked at 37 different aspects of their health. We apply for feature reduction Principal component Analysis and for classification uses MLP and Intelligent GA-MLP Hybrid model. <br><b>Name of the Publisher:</b> <i>Procedia Computer Science (2023)</i>",
+    "desc": "In our research, we gathered data about personal and clinical of 1,055 individuals living in the Uddanam area (Srikakulam district of Andhra Pradesh, India). Among these, 656 had CKD, and 399 did not. We looked at 37 different aspects of their health. We apply for feature reduction Principal component Analysis and for classification uses MLP and Intelligent GA-MLP Hybrid model.",
     "image": "book3",
     "category": "books",
     "links": {
@@ -233,7 +193,7 @@
   },
   {
     "name": "Edge Detection and Moving Object Detection Algorithm to Control Traffic Lights Dynamically",
-    "desc": "This study demonstrates a novel strategy known as the Edge Detection and Moving Object Detection (EDAMOD) approach, which partitions the Region of Interest (ROI) into ROI-1 and ROI-2 and then employs ED, MOD paradigms to identify the live area wide vehicle capacity at the traffic signal junction. In ROI-1, it employs ED, and in ROI-2, MOD. <br><b>Name of the Publisher:</b> <i>Springer (2023)</i>",
+    "desc": "This study demonstrates a novel strategy known as the Edge Detection and Moving Object Detection (EDAMOD) approach, which partitions the Region of Interest (ROI) into ROI-1 and ROI-2 and then employs ED, MOD paradigms to identify the live area wide vehicle capacity at the traffic signal junction. In ROI-1, it employs ED, and in ROI-2, MOD.",
     "image": "book4",
     "category": "books",
     "links": {
@@ -242,7 +202,7 @@
   },
   {
     "name": "A Review on Sign Language Recognition Techniques",
-    "desc": "Based on our research, there are two kinds of solutions proposed: a glove-based approach and a computer vision based. The rest of this review paper goes in depth about the various solutions proposed. Their methodology, advantages, and disadvantages are analyzed, compared, and discussed. <br><b>Name of the Publisher:</b> <i>Springer (2023)</i>",
+    "desc": "Based on our research, there are two kinds of solutions proposed: a glove-based approach and a computer vision based. The rest of this review paper goes in depth about the various solutions proposed. Their methodology, advantages, and disadvantages are analyzed, compared, and discussed.",
     "image": "book5",
     "category": "books",
     "links": {
@@ -251,7 +211,7 @@
   },
   {
     "name": "Review on 3D Model Generation Through Natural Language and Image Processing ",
-    "desc": "Our efforts were into detecting the edges of objects in input images and automating the task of building a model using data obtained from the processed image.  <br><b>Name of the Publisher:</b> <i>Springer (2023)</i>",
+    "desc": "Our efforts were into detecting the edges of objects in input images and automating the task of building a model using data obtained from the processed image.",
     "image": "book6",
     "category": "books",
     "links": {
@@ -260,7 +220,7 @@
   },
   {
     "name": "Student Monitoring System Using Deep Learning",
-    "desc": "our aim is to develop an automated system that will mark the attendance and monitor the attentiveness of students. The system records the whole session and identifies whether the student is concentrating in the classroom or not, then reports to the faculties. To check what amount of time students attended the lecture with full attention or without any misbehavior, eye aspect ratio is used. <br><b>Name of the Publisher:</b> <i>Springer (2023)</i>",
+    "desc": "our aim is to develop an automated system that will mark the attendance and monitor the attentiveness of students. The system records the whole session and identifies whether the student is concentrating in the classroom or not, then reports to the faculties. To check what amount of time students attended the lecture with full attention or without any misbehavior, eye aspect ratio is used.",
     "image": "book7",
     "category": "books",
     "links": {
@@ -269,7 +229,7 @@
   },
   {
     "name": "Survey on Estimation of Body Mass Index Using Facial Images",
-    "desc": "According to our research, region-aware global average pooling together with deep features were recommended, and training of dataset based on gender and race was recommended which improves accuracy and gives the best results for estimation of BMI from facial images. <br><b>Name of the Publisher:</b> <i>Springer (2023)</i>",
+    "desc": "According to our research, region-aware global average pooling together with deep features were recommended, and training of dataset based on gender and race was recommended which improves accuracy and gives the best results for estimation of BMI from facial images.",
     "image": "book8",
     "category": "books",
     "links": {
@@ -278,7 +238,7 @@
   },
   {
     "name": "Calculating the Traffic Density of Real-Time Video Using Moving Object Detection",
-    "desc": "In this paper, proposing a paradigm to find the live traffic density using MOD algorithm which interns uses prominent background subtraction practice by giving a traffic video as input to the proposed model so that this can work efficiently with live traffic video. <br><b>Name of the Publisher:</b> <i>Springer (2023)</i>",
+    "desc": "In this paper, proposing a paradigm to find the live traffic density using MOD algorithm which interns uses prominent background subtraction practice by giving a traffic video as input to the proposed model so that this can work efficiently with live traffic video.",
     "image": "book10",
     "category": "books",
     "links": {
@@ -287,7 +247,7 @@
   },
   {
     "name": "Automatic music genre classification using deep learning",
-    "desc": "In this paper, presented a large music dataset namely GTZAN with 10 distinct music genres like jazz, rock, hip-hop etc. In order train the classification model of music genre system, a deep learning based technique called CNN (Convolution Neural network) is applied. <br><b>Name of the Publisher:</b> <i>AIP (2023)</i>",
+    "desc": "In this paper, presented a large music dataset namely GTZAN with 10 distinct music genres like jazz, rock, hip-hop etc. In order train the classification model of music genre system, a deep learning based technique called CNN (Convolution Neural network) is applied.",
     "image": "book11",
     "category": "books",
     "links": {
@@ -296,7 +256,7 @@
   },
   {
     "name": "Melanoma classification using convolutional neural network",
-    "desc": "The project is to build a Convolutional Neural Network (CNN) model which uses a data set of images from Kaggle provided by Society for Imaging Informatics in Medicine (SIIM), which is used along with image processing techniques to identify melanoma among the dataset and classify images in a way to predict whether a given medical image is affected by melanoma or not. <br><b>Name of the Publisher:</b> <i>AIP (2023)</i>",
+    "desc": "The project is to build a Convolutional Neural Network (CNN) model which uses a data set of images from Kaggle provided by Society for Imaging Informatics in Medicine (SIIM), which is used along with image processing techniques to identify melanoma among the dataset and classify images in a way to predict whether a given medical image is affected by melanoma or not.",
     "image": "book12",
     "category": "books",
     "links": {
@@ -305,7 +265,7 @@
 },
 {
   "name": "smart traffic management system",
-  "desc": "We have used Mixture of Gaussian (MoG) algorithm for background subtraction technique and foreground detection, then generated capacity maps using which we found the density of traffic at that particular instant. The traffic lights at junctions are controlled dynamically based on the traffic density detected from the video feeds. <br><b>Name of the Publisher:</b> <i>Springer (2021)</i>",
+  "desc": "We have used Mixture of Gaussian (MoG) algorithm for background subtraction technique and foreground detection, then generated capacity maps using which we found the density of traffic at that particular instant. The traffic lights at junctions are controlled dynamically based on the traffic density detected from the video feeds.",
   "image": "book13",
   "category": "books",
   "links": {
@@ -314,7 +274,7 @@
 },
 {
   "name": "Sign Language Recognition Using Convolutional Neural Network",
-  "desc": "In this paper, American sign language is used. This paper deals with helping specially abled people to communicate with people who don’t know sign language by using the approaches of computer vision and deep learning. Our paper uses convolutional neural network to solve this problem. <br><b>Name of the Publisher:</b> <i>Springer (2021)</i>",
+  "desc": "In this paper, American sign language is used. This paper deals with helping specially abled people to communicate with people who don’t know sign language by using the approaches of computer vision and deep learning. Our paper uses convolutional neural network to solve this problem.",
   "image": "book14",
   "category": "books",
   "links": {
